@@ -6,6 +6,14 @@
 inrl-md- Simple Multi Device whatsapp bot.
 
 ***
+## Features
+
+- **Binary Search for Faster Response**: Utilizes binary search algorithms to quickly locate data or handle commands, improving the bot's response time.
+- **Credential Storage in PostgreSQL**: Supports storing user credentials and data in your own PostgreSQL database, ensuring persistent data management and smooth operation of group commands, even after a bot restart.
+- **Optimized and Simplified Script**: Uses a streamlined and efficient script to enhance performance, reducing processing time and resource consumption.
+- **Source Code Availability**: The source code is open and available, allowing you to build, customize, and extend the bot’s functionalities to meet your specific requirements.
+
+***
 
 #### SETUP
 
