@@ -10,6 +10,7 @@ module.exports = {
     PORT: process.env.PORT || 3000,
     BASE_URL : "https://web-pair-upf6.onrender.com/",
     PREFIX: '.',
+    WORKTYPE: 'private',
     SUDO: '',
     REPO: "inr-l/inrl-bot-md",
     DATABASE: DB_URL ? new Sequelize(DB_URL,{dialect:'postgres',ssl:true,protocol: 'postgres', dialectOptions: {native: true,ssl:{require: true,rejectUnauthorized: false}}, logging: false}) : new Sequelize({dialect:'sqlite',storage:'./database.db',logging:false}) 
